@@ -55,8 +55,8 @@ def gerar_dados(quantidade: int) -> None:
         database['Patrimônio'].append(patrimonio)
 
     dados_garados = pd.DataFrame(data=database)
-    dados_garados.to_excel('dados.xlsx', index=False)
+    dados_garados.to_excel('Dados_Gerados.xlsx',sheet_name="Dados" , index=False)
       
 
 if __name__ == '__main__':
-    gerar_dados(10)
+    gerar_dados(100_000)

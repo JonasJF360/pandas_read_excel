@@ -1,7 +1,9 @@
 # Minhas regras:
 soma.py
 *.xls
+*.xls#
 *.xlsx
+*.xlsx#
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
