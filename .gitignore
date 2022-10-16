@@ -1,5 +1,7 @@
 # Minhas regras:
-pessoa.py
+soma.py
+*.xls
+*.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

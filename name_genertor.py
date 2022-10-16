@@ -87,13 +87,14 @@ def generate_complit_name(sexo: str = 'n') -> list:
 
 
 if __name__ == '__main__':
+    print('Nomes Masculinos:')
     for i in range(10):
         print(f"{i + 1}:\t{new_cpf()}\t", " ".join(generate_complit_name('m')).title())
 
-    print()
+    print('\nNomes Femininos:')
     for i in range(10):
         print(f"{i + 1}:\t{new_cpf()}\t", " ".join(generate_complit_name('f')).title())
 
-    print()
+    print('\nNomes Masculinos e Femininos:')
     for i in range(10):
         print(f"{i + 1}:\t{new_cpf()}\t", " ".join(generate_complit_name()).title())
