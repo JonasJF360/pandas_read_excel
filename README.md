@@ -13,9 +13,9 @@ Se você, assim como eu gosta muito de programação e de python, te convido par
 > ### Outro fato é que estou usando o **Visual Studio Code**, e por isso fiz a configuração do ambiente virtual manualmente, caso esteja utilizando uma IDE que já faz a virtualização como o **PyCharm** faça somente a instalação do pandas.
 
 
->- ## **Pandas (Para manipular a(s) planilha(s))**
->
->   - ```pip3 install pandas```
+- ## **Pandas (Para manipular a(s) planilha(s))**
+
+   - ```pip3 install pandas```
 
 - ## **Openpyxl (Para manipular a(s) planilha(s))**
      - provavelmente irá precisar desse pacote se tiver usando Linux.
