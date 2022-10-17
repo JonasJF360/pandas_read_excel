@@ -1,5 +1,6 @@
 # Minhas regras:
 soma.py
+src/
 *.xls
 *.xls#
 *.xlsx

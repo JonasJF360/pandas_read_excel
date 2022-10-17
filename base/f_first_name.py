@@ -1,3 +1,6 @@
+""" Importação da função que verifira duplicidades. """
+import verificar_duplicidades as vd
+
 base_f_first_name: list = [
     'abigail',
     'adele',
@@ -167,11 +170,4 @@ base_f_first_name: list = [
 
 if __name__ == '__main__':
     # Testar se tem nomes tepetidos
-    tirar_repetidos: set = set(base_f_first_name)
-
-    print('[')
-    for i in tirar_repetidos:
-        print(f"\t'{i}',")
-    print(']')
-    print(len(base_f_first_name))
-    print(len(tirar_repetidos))
+    print(vd.valores_duplicados(base_f_first_name))
