@@ -1,6 +1,3 @@
-""" Importação da função que verifira duplicidades. """
-import verificar_duplicidades as vd
-
 base_m_second_name: list = [
     'alonsso',
     'carlos',
@@ -15,5 +12,6 @@ base_m_second_name: list = [
 ]
 
 if __name__ == '__main__':
-    ## Testar se tem nomes tepetidos
+    # Testar se tem nomes tepetidos
+    import verificar_duplicidades as vd
     print(vd.valores_duplicados(base_m_second_name))
