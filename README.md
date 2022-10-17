@@ -33,7 +33,8 @@ if __name__ == '__main__':
 
     - Linux terminal: ```sudo apt install python3.x-venv```
 
-> **Manual para instalação e uso em outros sistemas** [**clique aqui.**](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment)
+> **Manual para instalação e uso em outros sistemas**
+<a href="https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment" target="_blank">**clique aqui.**</a>
 
 - CRIANDO VIRTUALIZAÇÃO PELO TERMINAL:
 
